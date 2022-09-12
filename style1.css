@@ -1,0 +1,66 @@
+form{
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60vw;
+    padding: 2rem;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.box,.error{
+    display: grid;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+
+input[type="submit"]{
+    width: 5rem;
+    margin: 20px auto;
+}
+
+.error input{
+    color: red;
+    border:  1px solid red;
+
+}
+
+p {
+    background: red;
+    width: 33%;
+    height: 6px;
+    margin: -2px 0 2px;
+    border-radius: 50px;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+
+
+.error span{
+    visibility: visible;
+    opacity: 1;
+    color: red;
+
+}
+
+.progressRed{
+    background: red;
+    width: 12%;
+    visibility: visible;
+}
+
+.progressBlue{
+    background: cyan;
+    width: 67%;
+    visibility: visible;
+}
+
+.progressGreen {
+    width: 100%;
+    background: lightgreen;
+}
+
+
+
